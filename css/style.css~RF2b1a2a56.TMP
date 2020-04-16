@@ -1,0 +1,22 @@
+
+@font-face {
+  font-family: Arvo;
+  src: url("fonts/Arvo/Arvo-Regular.ttf");
+}
+
+.btn  {
+  background-color: #4d0404;
+  border-color: #C8C8C8;
+  border-width: 2px;
+}
+
+.btn:hover {
+  background-color: #C8C8C8;
+  border-color: black;
+}
+#Animation1 {
+  background-color: black;
+  align-self: center;
+  height: 350px;
+
+}

@@ -1,0 +1,37 @@
+
+@font-face {
+  font-family: Arvo;
+  src: url("fonts/Arvo/Arvo-Regular.ttf");
+}
+
+.btn  {
+  background-color: #4d0404;
+  border-color: #C8C8C8;
+  border-width: 2px;
+}
+
+.btn:hover {
+  background-color: #C8C8C8;
+  border-color: black;
+}
+
+.btn:focus {
+    background-color: #C8C8C8;
+    border-color: black;
+    outline: none;
+}
+#Animation1 {
+  background-color: white;
+  align-self: center;
+  height: 350px;
+
+}
+/*
+#Animation1:hover { 
+    background-color:white;
+}
+
+.namecontainer:hover { 
+    background-color: white;
+}
+    */

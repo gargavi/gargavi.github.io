@@ -1,0 +1,37 @@
+.topnav {
+  text-align: right;
+  padding-top: 20px;
+  padding-right: 30px;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: #C8C8C8;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 40px;
+  padding-top: 30px;
+}
+
+
+#navigationdiv {
+  border-style: solid;
+  border-color: red;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #4d0404;
+  font-weight: bold;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: white;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon"  type="image/png" href="logo.png">
+    <link rel = "stylesheet" href = "font-awesome/css/font-awesome.min.css">"
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="javascript/canvas.js" async></script>
+    <link rel= "stylesheet" href = "css/main.css">
+    <link rel = "stylesheet" href = "css/style.css">
+    <title> Home Page</title>
+</head>
+<body>
+<div class = "wrapper">
+  <header>
+    <nav>
+    <div class = "navcontainer">
+      <div class = "mainlogo">
+        <a href = "home.html">
+          <img src = "logo.png" alt = "Avi Garg" width = 75px>
+        </a>
+      </div>
+      <div class = "topnav">
+        <a href = "home.html"> Home </a>
+        <a href = "work.html" id = "active"> Work </a>
+        <a href = "blog.html"> Blog </a>
+        <a href = "about.html" id = "rightlink"> About Me </a>
+      </div>
+    </div>
+  </nav>
+  </header>
+</div>
+
+<div class = "divider"> </div>
+<div class = "divider"> </div>
+
+<!-- This page is divided into sections, i.e the ability to click on the navigation
+tabs at the top of this and be directed to different parts of the page. -->
+<div class = "container">
+  <div class = "row">
+    <div class = "col-md-4 title">
+      <button type="button" class="btn btn-primary btn-lg btn-block"> Creative</button>
+    </div>
+    <div class = "col-md-4 title">
+      <button type="button" class="btn btn-primary btn-lg btn-block"> Personal </button>
+    </div>
+    <div class = "col-md-4 title">
+      <button type="button" href = #professional class="btn btn-primary btn-lg btn-block"> Professional </button>
+    </div>
+  </div>
+</div>
+<div class = "divider">
+</div>
+<div class = "container picturediv">
+  <img src = "photos/workheader.png" alt = "hi">
+</div>
+<div class = "divider">
+</div>
+<div class = "container">
+  <div class = "row">
+    <div class = "col-md-4 mar">
+      <p> In my free time I like to dance, video edit and design random things.
+
+    </div>
+    <div class = "col-md-4 grey">
+      <p> I typically like to pursue personal projects that are either functional,
+        fun or make my life easier to some extent.
+    </div>
+    <div class = "col-md-4 mar" >
+      <p> I also do some stuff because I have to
+    </div>
+
+
+  </div>
+</div>
+
+
+
+<div class = "divider"> </div>
+<div class = "divider"> </div>
+<div class = "divider"> </div>
+
+<footer>
+  <div class = "container">
+    <div class = "row">
+      <div class = "col-md-2">
+      </div>
+      <div class = "col-md-2">
+        <div class = "row">
+          <div class = "col-sm-12">
+            <a href = "www.linkedin.com/in/avi-garg">
+              <i class = "fa fa-linkedin"> </i>
+            </a>
+            <a href = "www.github.com/gargavi">
+              <i class = "fa fa-github"> </i>
+            </a>
+            <a href = "https://open.spotify.com/user/12123404397">
+              <i class = "fa fa-spotify"> </i>
+            </a>
+            <a href = "https://twitter.com/theindianarcher?lang=en">
+              <i class = "fa fa-twitter"> </i>
+            </a>
+          </div>
+        </div>
+        <div class = "row">
+          <div class = "col-sm-12">
+            <i class = "fa fa-envelope-square"> avigarg@berkeley.edu </i>
+          </div>
+        </div>
+      </div>
+      <div class = "col-md-2">
+      </div>
+      <div class = "col-md-2">
+      </div>
+      <div class = "col-md-2">
+        <div class = "row">
+          <div class = "col-sm-12">
+            <i> Designed by Avi Garg  </i>
+          </div>
+        </div>
+        <div class = "row">
+          <div class = "col-sm-12">
+            <i> Version 1.1 2019</i>
+          </div>
+      </div>
+      <div class = "col-md-2">
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
