@@ -13,11 +13,13 @@
 
 
 body {
-  font-family: "Arvo",serif;
-  font-size: 15px;
-  color:black;
-  background-color: white;
+    font-family: "Arvo",serif;
+    font-size: 15px;
+    color: black;
+    background-color: #eceaea;
 }
+
+
 
 .wrapper {
   padding-right: 5%;
@@ -118,17 +120,16 @@ body {
   text-align: center;
 }
 
-#mainimage {
+.aligncenter {
   text-align: center;
-  width:40%;
-  float: left;
 }
 
 #intro {
   border-width: 10px;
   border-style: solid;
   border-color: #4d0404;
-  width: 100%;
+  width: 80%;
+  margin:auto;
 }
 #Prof {
   align-self: center;
@@ -184,6 +185,7 @@ body {
     border-radius: 10px;
         */
     height: 300px;
+    padding-right: 5%;
 }
 
 .greyborder { 
@@ -192,6 +194,7 @@ body {
     border-width: 2px;
     border-radius: 10px;
 }
+
 
 .workelemimg { 
     text-align:center;
@@ -236,6 +239,8 @@ body {
     font-size: 30px;
     padding-bottom: 1%;
     text-align:center;
+    border-bottom-style:solid;
+    border-bottom-color: #4d0404;
 }
 
 .maroonborder {

@@ -4,14 +4,16 @@
   src: url("fonts/Arvo/Arvo-Regular.ttf");
 }
 
-.btn  {
-  background-color: #4d0404;
-  border-color: #C8C8C8;
-  border-width: 2px;
+.btn {
+    background-color: #4d0404;
+    border-color: black;
+    border-width: 2px;
+    color: white;
 }
 
 .btn:hover {
-  background-color: #C8C8C8;
+  background-color: black;
+  color: white;
   border-color: black;
 }
 
@@ -21,17 +23,16 @@
     outline: none;
 }
 #Animation1 {
-  background-color: white;
-  align-self: center;
-  height: 350px;
-
+    background-color: #eceaea;
+    align-self: center;
+    height: 370px;
 }
 /*
 #Animation1:hover { 
     background-color:white;
 }
-
-.namecontainer:hover { 
-    background-color: white;
+ */
+.namecontainer {
+    background-color: #eceaea;
 }
-    */
+   
