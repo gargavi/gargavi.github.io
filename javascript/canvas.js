@@ -68,10 +68,11 @@ class MusicWave {
         c.beginPath();
         while (x < this.buffer) {
           this.writename();
-          y = 300 + this.yvals[x];
+            y = 300 + this.yvals[x];
           if ((((x > cvs.width/2 - 400) && (x< cvs.width/2 -110) ) || ((x < cvs.width/2 + 400) && (x > cvs.width/2  - 70)) )
            && (y > cvs.height/2 - 110) && (y < cvs.height/2 + 10)) {
-            c.moveTo(x, y);
+              c.moveTo(x, y);
+
           } else {
             c.lineTo(x, y);
             c.moveTo(x, y);
