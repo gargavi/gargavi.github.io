@@ -16,7 +16,7 @@ body {
     font-family: "Arvo",serif;
     font-size: 15px;
     color: black;
-    background-color: #eceaea;
+    background-color: #f2f1f1;
 }
 
 
@@ -248,6 +248,17 @@ body {
     border-color: #4d0404;
     border-width: 2px;
     border-radius: 10px;
+}
+
+
+/* This is the css for the blog*/
+.announcement { 
+    text-align: center;
+    font-weight: bolder;
+    border-style: solid;
+    width: 50%;
+    align-self:center;
+    margin:auto;
 }
 
 

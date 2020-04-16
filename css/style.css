@@ -4,13 +4,17 @@
   src: url("fonts/Arvo/Arvo-Regular.ttf");
 }
 
-.btn {
+.btn-primary {
     background-color: #4d0404;
     border-color: black;
     border-width: 2px;
     color: white;
 }
 
+.btn-secondary {
+    background-color: black;
+    border-radius:0px;
+}
 .btn:hover {
   background-color: black;
   color: white;
@@ -23,7 +27,7 @@
     outline: none;
 }
 #Animation1 {
-    background-color: #eceaea;
+    background-color: #f2f1f1;
     align-self: center;
     height: 370px;
 }
@@ -33,6 +37,6 @@
 }
  */
 .namecontainer {
-    background-color: #eceaea;
+    background-color: #f2f1f1;
 }
    
