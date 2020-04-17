@@ -5,8 +5,8 @@
 }
 
 .btn-primary {
-    background: rgb(25,182,209);
-    background: radial-gradient(circle, rgba(25,182,209,1) 0%, rgba(230,243,243,1) 100%);
+    background: rgb(196,42,25);
+    background: radial-gradient(circle, rgba(196,42,25,1) 7%, rgba(218,141,141,1) 73%);
     border-color: black;
     border-width: 0px;
     color: black;
@@ -17,14 +17,14 @@
     background-color: black;
     border-radius:0px;
 }
-.btn:hover {
+.btn-primary:hover {
   background-color: black;
   color: white;
-  border-color: black;
+  
 }
 
 .btn:focus {
-    background-color: #C8C8C8;
+    background: #C8C8C8;
     border-color: black;
     outline: none;
 }

@@ -117,7 +117,7 @@ class MusicWave {
     }
 
     update = function(){
-      this.buffer = (this.buffer + 2) % cvs.width;
+      this.buffer = (this.buffer + 3) % cvs.width;
       if (this.buffer < 3) {
         c.clearRect(0, 0, window.innerWidth, window.innerHeight);
       };
