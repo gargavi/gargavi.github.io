@@ -5,10 +5,11 @@
 }
 
 .btn-primary {
-    background-color: #69cbf0;
+    background: rgb(25,182,209);
+    background: radial-gradient(circle, rgba(25,182,209,1) 0%, rgba(230,243,243,1) 100%);
     border-color: black;
-    border-width: 2px;
-    color: white;
+    border-width: 0px;
+    color: black;
     border-radius: 0;
 }
 

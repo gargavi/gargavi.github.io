@@ -211,10 +211,15 @@ li {
 .col-md-4.title {
   text-align: center;
   color: #4d0404;
+  margin: 0;
+  padding:0;
 }
 
-
-.col-md-4.mar {
+.workback {
+    background: rgb(253,253,253);
+    background: linear-gradient(rgba(253,253,253,1) 11%, rgba(214,240,242,1) 35%);
+}
+    .col-md-4.mar {
   background-color: #4d0404;
   align-self: center;
   color: #C8C8C8;
@@ -236,7 +241,15 @@ li {
     border-radius: 10px;
         */
     height: 300px;
-    padding-right: 2%;
+    padding-left: 3%;
+    padding-right: 3%
+}
+
+.workgrid.right {
+    padding-right: 4%;
+}
+.workgrid.left {
+    padding-left:4%;
 }
 
 .greyborder { 
@@ -278,20 +291,21 @@ li {
 }
 
 .workelemtext h3 { 
-    color: #4d0404;
+    color: black;
     text-align:center;
     font-weight: bolder;
     font-size: 20px;
 }
 
-.workheader { 
-    text-decoration: none; 
-    color: #4d0404;
+.workheader {
+    text-decoration: none;
+    color: #0abac8;
+    font-weight: bolder;
     font-size: 30px;
     padding-bottom: 1%;
-    text-align:center;
-    border-bottom-style:solid;
-    border-bottom-color: #4d0404;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-color: #b0e9ed;
 }
 
 .maroonborder {
