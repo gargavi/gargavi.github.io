@@ -181,6 +181,10 @@ li {
 .coloring1 {
     background-color: #c42a19;
 }
+
+.coloring2 { 
+    background-color: lightgrey;
+}
 /* General coloring current setting*/
 .textcoloring1 {
     color: #c42a19;
@@ -249,7 +253,8 @@ li {
         */
     height: 300px;
     padding-left: 3%;
-    padding-right: 3%
+    padding-right: 3%;
+    color: grey;
 }
 
 /* Right most element of the grid*/
@@ -291,16 +296,14 @@ li {
     color: black;
 }
 
-.workelemtext:hover { 
-    color: black;
-}
+
 .workelemtext {
     /*background-color: #C8C8C8;*/
     /*border-style: solid;*/
     font-weight: lighter;
     font-size: 14px;
     text-justify:auto;
-    color: grey;
+    color: inherit;
     text-align: justify;
     border-radius: 10px;
 }
@@ -332,8 +335,60 @@ li {
     
 }
 
+/* This is the start of the css for the blog*/
+.blogelement {
 
-/* This is the css for the blog*/
+    padding-top: 0;
+    background-color: white;
+}
+
+.blogsett { 
+    margin: 0;
+    padding: 0;
+}
+
+.blogsett.topmargin14{ 
+    margin-top: 14px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 0;
+}
+
+.blogheader {
+    background-color: #dae1e3;
+    color: #c42a19;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+
+.blogheader h3 { 
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0;
+}
+
+.bloglist  { 
+    border-color: #c42a19;
+    border-style: double;
+    border-width: 2px;
+    text-align: center;
+    list-style-type: none;
+   
+}
+
+.blogcontent {
+    border-color: #c42a19;
+    border-style: double;
+    border-width: 2px;
+    padding: 3%;
+}
+
+/* This is a general anouncement divider class*/
 .announcement { 
     text-align: center;
     font-weight: bold;
@@ -344,18 +399,19 @@ li {
     margin:auto;
 }
 
-
+/* THis is the start of the css for the about page*/
+/* About image formatting div*/
 .aboutimg{ 
     text-align: center;
     padding-top: 4%;
 }
-
+/* IMage in the about image formatting*/
 .aboutimg img{ 
     border-style: solid;
     border-radius: 30px;
     width: 60%;
 }
-
+/* About text paragraph formatting*/
 .abouttext p{ 
     color: grey;
     font-size: 12px;
@@ -374,6 +430,7 @@ footer {
   text-align:center;
 }
 
+/* formatting links and the icons */
 footer a, i{
   font-size: 10px;
   padding-left: 2.5%;

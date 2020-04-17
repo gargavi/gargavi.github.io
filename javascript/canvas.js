@@ -61,7 +61,7 @@ class MusicWave {
             this.first = (this.first +1) % cvs.width;
         }
         c.font =  cvs.height/4 + "px Arvo,serif";
-        var x = this.buffer - 10;
+        var x = Math.floor(this.buffer - 10);
         var y = 0;
         c.textAlign = "center";
         c.strokeStyle = gradient;
@@ -117,7 +117,7 @@ class MusicWave {
     }
 
     update = function(){
-      this.buffer = (this.buffer + 3) % cvs.width;
+      this.buffer = (this.buffer + 2.5) % cvs.width;
       if (this.buffer < 3) {
         c.clearRect(0, 0, window.innerWidth, window.innerHeight);
       };
