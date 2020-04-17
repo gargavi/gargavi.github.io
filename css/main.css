@@ -10,16 +10,32 @@
   border-bottom-color: #4d0404;
 }
 
+.navcontainer { 
+    background-color: black;
+}
 
+.navbar { 
+    width: 100%;
+    background: black;
+    margin-right: 0;
+    padding-right: 0px;
+}
 
 body {
     font-family: "Arvo",serif;
     font-size: 15px;
     color: black;
-    background-color: #f2f1f1;
+    background-color: #fdfdfd;
 }
 
+.white { 
+    background-color: azure;
+    color:darkslategray;
+}
 
+li {
+    padding-top: 8%;
+}
 
 .wrapper {
   padding-right: 5%;
@@ -39,6 +55,11 @@ body {
   font-size: 18px;
   padding-top: 10%;
   padding-right: 8%;
+}
+.topnavigation { 
+    background-color: #fdfdfd;
+    padding-bottom: 10px;
+    padding-right: 8%;
 }
 
 .mainlogo {
@@ -157,11 +178,41 @@ body {
 .picturediv img {
   width: 80%;
 }
+.maroon { 
+    background-color: #4d0404;
+}
+
+.verticallabel {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    height: 110%;
+    width: 1%;
+    vertical-align: central;
+    padding-right: 11%;
+    margin-right: 0 !important;
+   
+}
+.verticallabel p {
+    color: white;
+   
+}
+.mini { 
+    margin-right: 0;
+    width: 4%;
+}
+
+.picturedivfull img {
+    width: 100%;
+}
 /* All the css we will use for the Work Tab */
 .col-md-4.title {
   text-align: center;
   color: #4d0404;
 }
+
 
 .col-md-4.mar {
   background-color: #4d0404;
@@ -185,7 +236,7 @@ body {
     border-radius: 10px;
         */
     height: 300px;
-    padding-right: 5%;
+    padding-right: 2%;
 }
 
 .greyborder { 
@@ -248,6 +299,7 @@ body {
     border-color: #4d0404;
     border-width: 2px;
     border-radius: 10px;
+    
 }
 
 
@@ -262,6 +314,16 @@ body {
 }
 
 
+.aboutimg{ 
+    text-align: center;
+    padding-top: 4%;
+}
+
+.aboutimg img{ 
+    border-style: solid;
+    border-radius: 30px;
+    width: 60%;
+}
 /* This is the css style for the footer */
 footer {
   border-top-style: solid;

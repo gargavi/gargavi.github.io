@@ -5,10 +5,11 @@
 }
 
 .btn-primary {
-    background-color: #4d0404;
+    background-color: #69cbf0;
     border-color: black;
     border-width: 2px;
     color: white;
+    border-radius: 0;
 }
 
 .btn-secondary {
@@ -27,7 +28,7 @@
     outline: none;
 }
 #Animation1 {
-    background-color: #f2f1f1;
+    background-color: #fdfdfd;
     align-self: center;
     height: 370px;
 }
@@ -37,6 +38,6 @@
 }
  */
 .namecontainer {
-    background-color: #f2f1f1;
+    background-color: #fdfdfd;
 }
    
