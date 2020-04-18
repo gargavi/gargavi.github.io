@@ -38,6 +38,7 @@ body {
 /* Styling for the list elements*/
 li {
     padding-top: 8%;
+    text-align: justify;
 }
 /* Adding additionl padding */
 .wrapper {

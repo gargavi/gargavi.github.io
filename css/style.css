@@ -13,9 +13,20 @@
     border-radius: 0;
 }
 
-.btn-secondary {
-    background-color: black;
+.btn-outline-secondary {
+    border-style: solid;
+    color: black;
+    border-color: #c42a19;
+    background-color: none;
     border-radius:0px;
+}
+
+.btn-outline-secondary:hover {
+    border-style: solid;
+    border-color: black;
+    color: white;
+    background-color: #c42a19;
+    border-radius: 0px;
 }
 .btn-primary:hover {
   background-color: black;
