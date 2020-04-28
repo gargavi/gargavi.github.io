@@ -37,7 +37,7 @@ body {
 }
 /* Styling for the list elements*/
 li {
-    padding-top: 8%;
+    padding-top: 5%;
     text-align: justify;
 }
 /* Adding additionl padding */
@@ -63,7 +63,7 @@ li {
 
 /* Styles the fluid container of the navbar*/
 .topnavigation { 
-    background-color: #fdfdfd;
+    background-color: #fdfdfd;;
     padding-bottom: 10px;
     padding-right: 3%;
 }
@@ -125,19 +125,14 @@ li {
 }
 
 /* The adjustments for the paragraph on the main page*/
-.description p {
-  font-size: 15px;
+.description  {
+  font-size: 14px;
+  padding-right: 20%;
   font-family: "Arvo", serif;
   font-weight: normal;
 }
 /* The overall styling for the paragraph container*/
-.description {
-  float: right;
-  width: 40% ;
-  padding-right:2%;
-  padding-top: 1%;
-  text-align: center;
-}
+
 /* A general class for text alignment*/
 .aligncenter {
   text-align: center;
@@ -147,7 +142,7 @@ li {
     border-width: 10px;
     border-style: solid;
     border-color: black;
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 /* ID for Professional Summary link*/
@@ -160,7 +155,7 @@ li {
 }
 /* General Link class*/
 .Link {
-  padding-top: 10%;
+  padding-top: 6%;
   align-self: center;
   margin: auto;
   width: 60%;
@@ -223,14 +218,13 @@ li {
 /* Contains the labels and buttons for work */
 .col-md-4.title {
   text-align: center;
-  color: #c42a19;
   margin: 0;
-  padding:0;
+  padding:2%;
 }
 
 /* backgrounds of the elements*/
 .workback {
-    background: rgb(253,253,253);
+    background: inherit;
 }
 /* Maroon colored columns*/
 .col-md-4.mar {
@@ -252,19 +246,19 @@ li {
     padding-top: 7px;
     border-radius: 10px;
         */
-    height: 300px;
-    padding-left: 3%;
-    padding-right: 3%;
+    height: 200px;
+    padding-left: 1%;
+    padding-right: 1%;
     color: grey;
 }
 
 /* Right most element of the grid*/
 .workgrid.right {
-    padding-right: 4%;
+    padding-right: 2%;
 }
 /* Left most element of the grid*/
 .workgrid.left {
-    padding-left:4%;
+    padding-left:2%;
 }
 /* A grey border*/
 .greyborder { 
@@ -293,7 +287,7 @@ li {
 }
 
 .workgrid:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     color: black;
 }
 
@@ -309,6 +303,29 @@ li {
     border-radius: 10px;
 }
 
+.tooler .toolish { 
+    visibility: hidden;
+    padding: 3%;
+    font-size: 14px;
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    bottom: 1%;
+    padding-top: 5%;
+    left: 4.5%;
+    
+    
+
+}
+
+.tooler:hover .toolish { 
+    visibility: visible;
+}
+
+.tooler:hover .workelemimg { 
+    visibility: hidden;
+}
+
 .workelemtext h3 { 
     color: #c42a19;
     text-align:center;
@@ -318,13 +335,14 @@ li {
 
 .workheader {
     text-decoration: none;
-    color: #c42a19;
-    font-weight: bold;
+    color: #c42a19; 
     font-size: 30px;
-    padding-bottom: 1%;
+    padding-bottom: 2%;
     text-align: center;
     border-bottom-style: solid;
-    border-bottom-color: #c42a19;
+    /* border-bottom-color: #c42a19; */
+     border-bottom-color:rgb(90, 89, 89); 
+    
 }
 
 
@@ -423,12 +441,13 @@ footer {
   border-top-style: solid;
   border-top-width: thin;
   border-top-color: #32768F;
-  height: 80px;
+  height: 50px;
+  width: 100%;
   font-size: 15px;
   font-weight: lighter;
-  padding-top:1%;
   color: #32768F;
   text-align:center;
+  padding-bottom: 1%;
 }
 
 /* formatting links and the icons */

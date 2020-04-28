@@ -5,10 +5,10 @@
 }
 
 .btn-primary {
-    background: rgb(196,42,25);
-    background: radial-gradient(circle, rgba(196,42,25,1) 7%, rgba(218,141,141,1) 73%);
+    background: white;
+    /* background: radial-gradient(circle, rgba(196,42,25,1) 7%, rgba(218,141,141,1) 73%); */
     border-color: black;
-    border-width: 0px;
+    border-width: 1px;
     color: black;
     border-radius: 0;
 }
@@ -21,6 +21,8 @@
     border-radius:0px;
 }
 
+
+
 .btn-outline-secondary:hover {
     border-style: solid;
     border-color: black;
@@ -29,8 +31,11 @@
     border-radius: 0px;
 }
 .btn-primary:hover {
+  color: #fdfdfd;
+
   background-color: black;
-  color: white;
+  border-radius: 0;
+  border-width: 1px; 
   
 }
 

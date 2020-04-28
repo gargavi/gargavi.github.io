@@ -17,7 +17,7 @@
     <link rel = "stylesheet" href = "css/style.css">
     <title> My Work </title>
 </head>
-<body>
+<body >
 <div class="container-fluid">
     <div class="row topnavigation">
         <header>
@@ -44,7 +44,7 @@
 
 <!-- This page is divided into sections, i.e the ability to click on the navigation
 tabs at the top of this and be directed to different parts of the page. -->
-<div class="container-fluid">
+<div class="container">
     <div class="row fixed">
         <div class="col-md-4 title">
             <a href="#Professional" class="btn btn-primary btn-lg btn-block"> Professional </a>
@@ -60,13 +60,13 @@ tabs at the top of this and be directed to different parts of the page. -->
 <div class = "divider">
 </div>
 
-<div class="container">
+<!-- <div class="container">
 <div class = "row">
     <div class="col-md-12 picturedivfull ">
         <img src="photos/workheader.png" alt="hi">
     </div>
 </div>
-   
+    -->
 <div class = "divider">
 </div>
 <!--
@@ -89,27 +89,28 @@ tabs at the top of this and be directed to different parts of the page. -->
 </div>-->
 </div> 
 
-<div class="container-fluid workback" id="Professional">
-    <h1 class="workheader"> Professional Projects </h1>
+<div class="container workback" id="Professional">
+    <h1 class="workheader"> Professional/Academic Projects </h1>
     <div class="row topmargin14">
         <div class="col-md-4 workgrid left">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-12 tooler">
                     <div class="workelemimg">
                         <a href="https://www.microsoft.com/en-us/" target="_blank">
                             <img src="photos/Microsoft.png">
                         </a>
+                        <p class = "toolish">
+                            I will be working with the Worldwide Learning Team, specifically as a 
+                            Data Science and Applied Statistics intern. More information to follow! :) 
+                        </p>
                     </div>
                 </div>
             </div>
             <div class="row topmargin7">
                 <div class="col-sm-12">
-                    <div class="workelemtext">
+                    <div class = "workelemtext">
                         <h3> MICROSOFT </h3>
-                        <p>
-                            I will be working with the Worldwide Learning Team, specifically as a 
-                            Data Science and Applied Statistics intern. More information to follow! :) 
-                        </p>
+                        
                     </div>
                 </div>
             </div>
@@ -163,65 +164,7 @@ tabs at the top of this and be directed to different parts of the page. -->
 
     </div>
     <div class="row topmargin14">
-        <div class="col-md-4 workgrid left">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="workelemimg greyborder">
-                        <a href="https://www.chanler.com/" target="_blank">
-                            <img src="photos/chanler.png">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row topmargin7">
-                <div class="col-sm-12">
-                    <div class="workelemtext ">
-                        <h3> THE CHANLER GROUP </h3>
-                        <p>
-                            I did research about Prop 65 cases and worked on filing case
-                            files and pulling information from online sources. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 workgrid">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="workelemimg greyborder">
-                        <a href="https://www.nps.edu/" target="_blank">
-                            <img src="photos/NPS.png">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row topmargin7">
-                <div class="col-sm-12">
-                    <div class="workelemtext">
-                        <h3> NAVAL POSTGRADUATE SCHOOL </h3>
-                        <p>
-                            I used Gephi, a graphing software, to visualize synthetic terrorist networks and do analysis on
-                            connections using geographic, social and political features to
-                            identify key nodes and influences. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="col-md-4 workgrid right">
-
-        </div>
-
-    </div>
-
-</div>
-<div class="divider"></div>
-
-
-<div class="container-fluid workback" id="Personal">
-    <h1 class="workheader"> Personal Projects </h1>
-    <div class="row topmargin14">
-        <div class="col-md-4 workgrid left">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="workelemimg">
@@ -248,6 +191,59 @@ tabs at the top of this and be directed to different parts of the page. -->
             <div class="row">
                 <div class="col-sm-12">
                     <div class="workelemimg greyborder">
+                        <a href="https://www.chanler.com/" target="_blank">
+                            <img src="photos/chanler.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row topmargin7">
+                <div class="col-sm-12">
+                    <div class="workelemtext ">
+                        <h3> THE CHANLER GROUP </h3>
+                        <p>
+                            I did research about Prop 65 cases and worked on filing case
+                            files and pulling information from online sources. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 workgrid right">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="workelemimg greyborder">
+                        <a href="https://www.nps.edu/" target="_blank">
+                            <img src="photos/NPS.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row topmargin7">
+                <div class="col-sm-12">
+                    <div class="workelemtext">
+                        <h3> NAVAL POSTGRADUATE SCHOOL </h3>
+                        <p>
+                            I used Gephi, a graphing software, to visualize synthetic terrorist networks and do analysis on
+                            connections using geographic, social and political features to
+                            identify key nodes and influences. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="divider"></div>
+
+
+<div class="container  workback" id="Personal">
+    <h1 class="workheader"> Personal Projects </h1>
+    <div class="row topmargin14">
+        <div class="col-md-4 workgrid left">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="workelemimg greyborder">
                         <a href="files/scheduler.xlsm" target="_blank">
                             <img src="photos/scheduler.png">
                         </a>
@@ -267,7 +263,7 @@ tabs at the top of this and be directed to different parts of the page. -->
                 </div>
             </div>
         </div>
-        <div class="col-md-4 workgrid right">
+        <div class="col-md-4 workgrid">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="workelemimg">
@@ -291,10 +287,7 @@ tabs at the top of this and be directed to different parts of the page. -->
                 </div>
             </div>
         </div>
-
-    </div>
-    <div class="row topmargin14">
-        <div class="col-md-4 workgrid left">
+        <div class="col-md-4 workgrid right">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="workelemimg">
@@ -317,7 +310,10 @@ tabs at the top of this and be directed to different parts of the page. -->
                 </div>
             </div>
         </div>
-        <div class="col-md-4 workgrid">
+    </div>
+    <div class="row topmargin14">
+
+        <div class="col-md-4 workgrid left">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="workelemimg">
@@ -340,7 +336,7 @@ tabs at the top of this and be directed to different parts of the page. -->
                 </div>
             </div>
         </div>
-        <div class="col-md-4 workgrid right">
+        <div class="col-md-4 workgrid">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="workelemimg">
@@ -363,13 +359,15 @@ tabs at the top of this and be directed to different parts of the page. -->
                 </div>
             </div>
         </div>
+        <div class = "col-md-4 workgrid">
+
+        </div> 
     </div>
 </div>
 
 <div class="divider"></div>
 
-
-<div class="container-fluid workback" id="Creative">
+<div class="container  workback" id="Creative">
     <h1 class="workheader topmargin7"> Creative Projects </h1>
     <div class="row topmargin14">
         <div class="col-md-4 workgrid left">
@@ -454,22 +452,22 @@ tabs at the top of this and be directed to different parts of the page. -->
                     <div class="row">
                         <div class="col-sm-12">
                             <a href="https://www.linkedin.com/in/avi-garg"  target = "_blank">
-                                <i class="fa fa-linkedin fa-2x"> </i>
+                                <i class="fa fa-linkedin fa-lg"> </i>
                             </a>
                             <a href="https://www.github.com/gargavi"  target = "_blank">
-                                <i class="fa fa-github fa-2x"> </i>
+                                <i class="fa fa-github fa-lg"> </i>
                             </a>
                             <a href="https://open.spotify.com/user/12123404397"  target = "_blank">
-                                <i class="fa fa-spotify fa-2x"> </i>
+                                <i class="fa fa-spotify fa-lg"> </i>
                             </a>
                             <a href="https://twitter.com/theindianarcher?lang=en"  target = "_blank">
-                                <i class="fa fa-twitter fa-2x "> </i>
+                                <i class="fa fa-twitter fa-lg "> </i>
                             </a>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-sm-12">
-                            <i class="fa fa-envelope-square"> avigarg@berkeley.edu </i>
+                            <i class="fa fa-envelope-square" style = "font-size: 12px"> avigarg@berkeley.edu </i>
                         </div>
                     </div>
                 </div>
@@ -478,16 +476,12 @@ tabs at the top of this and be directed to different parts of the page. -->
                 <div class="col-md-2">
                 </div>
                 <div class="col-md-2">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <i> Designed by Avi Garg  </i>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <i> Version 1.1 2019</i>
-                        </div>
-                    </div>
+                    
+                    <i> Version 1.2 2019  </i>
+                        
+        
+                
+                        
                     <div class="col-md-2">
                     </div>
                 </div>
