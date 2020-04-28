@@ -224,7 +224,13 @@ li {
 
 /* backgrounds of the elements*/
 .workback {
-    background: inherit;
+    background:inherit;
+    border-style: solid;
+    padding-right: 5%;
+    padding-left: 5%;
+    border-width: .5px;
+    border-radius: 20px;
+    border-color: #1991e6;
 }
 /* Maroon colored columns*/
 .col-md-4.mar {
@@ -254,11 +260,11 @@ li {
 
 /* Right most element of the grid*/
 .workgrid.right {
-    padding-right: 2%;
+    padding-right: 1%;
 }
 /* Left most element of the grid*/
 .workgrid.left {
-    padding-left:2%;
+    padding-left:1%;
 }
 /* A grey border*/
 .greyborder { 
@@ -287,7 +293,7 @@ li {
 }
 
 .workgrid:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
     color: black;
 }
 
@@ -298,50 +304,56 @@ li {
     font-weight: lighter;
     font-size: 14px;
     text-justify:auto;
-    color: inherit;
-    text-align: justify;
+    color: #1991e6;
+    text-align: center;
     border-radius: 10px;
+}
+
+.workelemtext h3 { 
+    
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 2%;
+    color: black;
+    margin-bottom: 1%;
 }
 
 .tooler .toolish { 
     visibility: hidden;
-    padding: 3%;
-    font-size: 14px;
+    padding: 6%;
+    font-size: 13px;
     position: absolute;
+    text-align: justify;
     width: 95%;
     height: 95%;
     bottom: 1%;
     padding-top: 5%;
     left: 4.5%;
-    
-    
-
 }
 
 .tooler:hover .toolish { 
     visibility: visible;
 }
 
-.tooler:hover .workelemimg { 
+.tooler:hover img { 
     visibility: hidden;
+    
 }
 
-.workelemtext h3 { 
-    color: #c42a19;
-    text-align:center;
-    font-weight: bolder;
-    font-size: 20px;
+.tooler:hover {
+    border-style: none;
 }
+
 
 .workheader {
     text-decoration: none;
-    color: #c42a19; 
+    color: #10588c; 
     font-size: 30px;
     padding-bottom: 2%;
     text-align: center;
     border-bottom-style: solid;
     /* border-bottom-color: #c42a19; */
-     border-bottom-color:rgb(90, 89, 89); 
+     border-bottom-color: grey; 
     
 }
 
@@ -375,8 +387,8 @@ li {
 }
 
 .blogheader {
-    background-color: #dae1e3;
-    color: #c42a19;
+    background-color: black;
+    color: #e7523e;
     text-align: center;
     border-style: solid;
     border-width: 3px;
@@ -392,7 +404,7 @@ li {
 }
 
 .bloglist  { 
-    border-color: #c42a19;
+    border-color: black;
     border-style: double;
     border-width: 2px;
     text-align: center;
@@ -401,7 +413,7 @@ li {
 }
 
 .blogcontent {
-    border-color: #c42a19;
+    border-color: black;
     border-style: double;
     border-width: 2px;
     padding: 3%;
@@ -432,7 +444,7 @@ li {
 }
 /* About text paragraph formatting*/
 .abouttext p{ 
-    color: grey;
+    color: black;
     font-size: 12px;
     text-align:justify;
 }
