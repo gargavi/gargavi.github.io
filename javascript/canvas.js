@@ -1,7 +1,12 @@
 const cvs = document.querySelector('canvas');
 const c = cvs.getContext('2d');
 
-cvs.width = window.innerWidth;
+if ( navigator.platform != "iPad" && navigator.platform != "iPhone" && navigator.platform != "iPod" ) {
+  cvs.width = window.innerWidth; 
+      //I'll use window.innerWidth in production
+} else {
+  cvs.width = screen.width;
+}
 cvs.height = window.innerHeight;
 
 window.addEventListener('resize', function () {
