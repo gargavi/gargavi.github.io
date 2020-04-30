@@ -8,10 +8,13 @@ if ( navigator.platform != "iPad" && navigator.platform != "iPhone" && navigator
   cvs.width = screen.width;
 }
 cvs.height = window.innerHeight;
-
 window.addEventListener('resize', function () {
   cvs.width = window.innerWidth;
   cvs.height = window.innerHeight;
+  x_cut = (c.measureText("AVI GARG").width)/2 + 40;
+  y_upper = x_cut/5;
+  y_lower = x_cut/6;
+
 });
 
 let mouse = {
@@ -29,6 +32,10 @@ gradient.addColorStop("0"," magenta");
 gradient.addColorStop("0.5", "blue");
 gradient.addColorStop(".75", "red")
 c.fillStyle = gradient;
+c.font =  cvs.height/4 + "px Arvo,serif";
+var x_cut = (c.measureText("AVI GARG").width)/2 + 40;
+var y_lower = x_cut/(3);
+var y_upper = x_cut/15;
 
 
 class MusicWave {
@@ -65,7 +72,6 @@ class MusicWave {
         } else {
             this.first = (this.first +1) % cvs.width;
         }
-        c.font =  cvs.height/4 + "px Arvo,serif";
         var x = Math.floor(this.buffer - 10);
         var y = 0;
         c.textAlign = "center";
@@ -74,8 +80,8 @@ class MusicWave {
         while (x < this.buffer) {
           this.writename();
             y = 300 + this.yvals[x];
-          if ((((x > cvs.width/2 - 400) && (x< cvs.width/2 -110) ) || ((x < cvs.width/2 + 400) && (x > cvs.width/2  - 70)) )
-           && (y > cvs.height/2 - 110) && (y < cvs.height/2 + 10)) {
+          if ((((x > cvs.width/2 - x_cut) && (x< cvs.width/2 -110) ) || ((x < cvs.width/2 + x_cut) && (x > cvs.width/2  - 70)) )
+           && (y > cvs.height/2 - y_lower) && (y < cvs.height/2 + y_upper)) {
               c.moveTo(x, y);
 
           } else {

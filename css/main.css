@@ -110,6 +110,7 @@ li {
 .namecontainer{
   height: 100%;
   align-self: center;
+  padding-bottom: 4%;
   position: relative;
   width: 100%;
   background-color: white;
@@ -127,7 +128,6 @@ li {
 /* The adjustments for the paragraph on the main page*/
 .description  {
   font-size: 14px;
-  padding-right: 20%;
   font-family: "Arvo", serif;
   font-weight: normal;
 }

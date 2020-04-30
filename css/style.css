@@ -21,8 +21,6 @@
     border-radius:0px;
 }
 
-
-
 .btn-outline-secondary:hover {
     border-style: solid;
     border-color: black;
@@ -31,8 +29,7 @@
     border-radius: 0px;
 }
 .btn-primary:hover {
-  color: #fdfdfd;
-
+  color: #1991e6 ;
   background-color: black;
   border-radius: 0;
   border-width: 1px; 
