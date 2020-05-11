@@ -211,7 +211,16 @@ li {
 }
 /* Make an im in a div the full size */
 .picturedivfull img {
-    width: 100%;
+    width: 90%;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #1991e6;
+    border-radius: 2px;
+}
+
+.picturedivfull { 
+    text-align: center;
+    margin-top: 8%;
 }
 /* All the css we will use for the Work Tab */
 
@@ -225,7 +234,7 @@ li {
 /* backgrounds of the elements*/
 .workback {
     background:inherit;
-    border-style: solid;
+    border-style: none;
     padding-right: 5%;
     padding-left: 5%;
     border-width: .5px;
@@ -270,6 +279,27 @@ li {
 .greyborder { 
     border-style: solid;
     border-color: #C8C8C8;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.goldborder { 
+    border-style: solid;
+    border-color: rgb(179, 137, 1);
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.greenborder { 
+    border-style: solid;
+    border-color: rgba(18, 58, 18, 0.486);
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.blackborder { 
+    border-style: solid;
+    border-color: black;
     border-width: 2px;
     border-radius: 10px;
 }
@@ -369,8 +399,13 @@ li {
 /* This is the start of the css for the blog*/
 .blogelement {
 
-    padding-top: 0;
+    padding-top: 1%;
     background-color: white;
+}
+
+.blogelementhead { 
+    text-align: center;
+    border-style: solid;
 }
 
 .blogsett { 
@@ -397,7 +432,8 @@ li {
     padding-bottom: 10px;
 }
 
-.blogheader h3 { 
+.blogheader a { 
+    color: inherit;
     padding-top: 2%;
     padding-bottom: 2%;
     margin: 0;
@@ -405,7 +441,7 @@ li {
 
 .bloglist  { 
     border-color: black;
-    border-style: double;
+    border-style: solid;
     border-width: 2px;
     text-align: center;
     list-style-type: none;
@@ -416,6 +452,7 @@ li {
     border-color: black;
     border-style: double;
     border-width: 2px;
+    font-size: 12px;
     padding: 3%;
 }
 

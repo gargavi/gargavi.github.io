@@ -11,9 +11,14 @@ cvs.height = window.innerHeight;
 window.addEventListener('resize', function () {
   cvs.width = window.innerWidth;
   cvs.height = window.innerHeight;
-  x_cut = (c.measureText("AVI GARG").width)/2 + 40;
-  y_upper = x_cut/5;
-  y_lower = x_cut/6;
+  c.font =  cvs.height/4 + "px Arvo,serif";
+  var x_cut = 1.1 * (c.measureText("AVI GARG").width)/2 ;
+  var y_lower = x_cut/(3);
+  var y_upper = x_cut/15;  
+  c.clearRect(0, 0, window.innerWidth, window.innerHeight);
+  console.log(x_cut); 
+  console.log(y_upper);
+  console.log(y_lower);
 
 });
 
