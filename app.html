@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="logo1.png">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-    <!-- For AdSense-->
-    <script data-ad-client="ca-pub-9576282832590529" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166016248-1"></script>
     <script>
@@ -26,7 +24,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="javascript/canvas.js" async></script>
-    <title> Avi Garg </title>
+    <title> Apps </title>
 </head>
 <body>
 <div class="container-fluid">
@@ -40,10 +38,10 @@
                         </a>
                     </div>
                     <div class="topnav">
-                        <a href="index.html" id="active"> Home </a>
+                        <a href="index.html"> Home </a>
                         <a href="work.html"> Work </a>
                         <a href="blog.html"> Blog </a>
-                        <a href="app.html"> Apps </a>
+                        <a href="app.html" id="active"> Apps </a>
                         <a href="about.html"> About Me </a>
                     </div>
                 </div>
@@ -53,50 +51,50 @@
 </div>
 <div class="container"> 
    
-   <div class="divider"></div>
-    <div class="row">
-        <div class = "namecontainer">
-          <canvas id = "Animation1">
-          </canvas>
-        </div>
-    </div>
-  
-   <div class="row"> 
-       <div class="col-md-6 col-sm-6 ">
-          <div class="aligncenter">
-              <img src="photos/profile.jpg" id="intro"  >
-          </div>
-      </div>
-      <div class= "col-md-5 col-sm-5"> 
-        <div class = "description">
-            <h3 class="textcoloring1"> HI! </h3>
-            <h1></h1>
-            <p  style="text-align:justify">
-            I'm a sophomore at the University of California, Berkeley, majoring in 
-            Statistics, Computer Science and Economics. I am particularly interested in 
-            using cutting edge software and advanced statistics to generate conclusions from data 
-            that might not be immediately apparent. 
-           </p> 
-            <ul>
-                <li>
-                    If you want to know more about some of the work I've done, either 
-                    professionally or otherwise, check it out <a href="work.html"> here </a>
-                </li>
-                <li>
-                    Any new projects, updates on old projects and creative work or 
-                    general insights is found on my <a href="blog.html"> blog</a>.
-                </li>
-                <li>
-                    If you are looking to hire me (super cool) or just want to know more about me (also cool)
-                    then <a href="about.html"> this </a> is the place to visit.
-                </li>
-            </ul>
-            <div class = "Link">
-                <a href = "files/Avi_G_Resume.pdf" id = "Prof"> Professional Summary </a>
-            </div>
-        </div>
-       </div>
-    </div>
+    <div class="divider"></div>
+    <div class = "apps"> 
+        <table>
+            <tbody> 
+                <tr> 
+                <td> 
+                    <a href = "https://sherlocked.xyz" target = "_blank">
+                        <div class = "app"> 
+                            <h3> SHERLOCKED </h3>
+                            <img src = "./photos/sherlocked.png"/>
+                            <p> 
+                                This was a really fun web app that lets people play inside of a murder mystery to solve 
+                                challenges and find out who the real killer is. This came as an idea from quarantine, and the premise 
+                                of the story somewhat reflects the environment we were in when we were designing it. Overall it was a lot 
+                                of trial and error with React and React Router, and a fun way to gain more exposure in how to use the 
+                                features that React Router has and the added functionality it provides on top of React. 
+                            </p>
+                        </div>
+                    </a>
+                </td> 
+                <td> 
+                    <a href = "https://college-gpa.com" target = "_blank">
+                    <div class = "app"> 
+                        <h3> SCHEDULER </h3>
+                        <img src = "./photos/schedulerreact.png"/>
+                        <p> 
+                            This was my first attempt at designing a web app in Javascript; I had previously done work in Flask, but I had 
+                            never been able to successfully host a Flask Application on a server. I figured that I might try to learn 
+                            Javascript in an attempt to make hosting easier, and to learn how to build full scale web apps, with the goal of learning 
+                            the front end interface and then braching off into integrating routing, databases and more. This app is a single 
+                            page application meant to help students with planning out their academic careers, and specifically with helping them 
+                            calculate their GPA's. The calculations for GPA is relatively simple, but this just provides a good interface to play 
+                            around with grades and seeing their impact on grades.
+                        </p>
+                    </div>
+                    </a>    
+                </td> 
+                </tr>
+            </tbody>
+
+        </table>
+    </div> 
+
+
 <div style = "height: 35px"> 
 </div>
 <div class ="container-fluid">

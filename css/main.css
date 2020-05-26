@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 
 /* This styles the navigation bar*/
 .topnav {
@@ -10,6 +13,7 @@
     border-bottom-style: solid;
     border-bottom-color: #c42a19;
 }
+
 /* This contains the logo */
 .navcontainer { 
     background-color: #fdfdfd;
@@ -454,6 +458,7 @@ li {
     border-width: 2px;
     font-size: 12px;
     padding: 3%;
+    text-align: justify;
 }
 
 /* This is a general anouncement divider class*/
@@ -503,4 +508,49 @@ footer {
 footer a, i{
   font-size: 10px;
   padding-left: 2.5%;
+}
+
+
+.app { 
+    text-align: center;
+    margin: 3%;
+}
+
+.app p { 
+    margin-top: 2%;
+    padding: 3%;
+    font-size: 12px;
+    padding-right: 6%;
+    padding-left: 6%;
+    border-style: solid;
+    background-color: lightgrey;
+    color: black;
+    text-align: justify;
+}
+
+.apps table { 
+    width: 100%
+}
+
+.apps td {
+    width: 45%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.app h3 { 
+    border-style: solid;
+    background-color:#c42a19;
+    color: white;
+    padding: 2%;
+}
+.app:hover { 
+    transform: scale(1.03);
+}
+
+.apps a:hover { 
+    text-decoration: none;
+    
 }
