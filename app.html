@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Yanone+Kaffeesatz:wght@200;300;400;500;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="logo1.png">
@@ -50,32 +51,36 @@
     </div>
 </div>
 <div class="container"> 
-   
+   <div class = "row">
     <div class="divider"></div>
-    <div class = "apps"> 
-        <table>
-            <tbody> 
-                <tr> 
-                <td> 
-                    <a href = "https://sherlocked.xyz" target = "_blank">
-                        <div class = "app"> 
-                            <h3> SHERLOCKED </h3>
-                            <img src = "./photos/sherlocked.png"/>
-                            <p> 
-                                This was a really fun web app that lets people play inside of a murder mystery to solve 
-                                challenges and find out who the real killer is. This came as an idea from quarantine, and the premise 
-                                of the story somewhat reflects the environment we were in when we were designing it. Overall it was a lot 
-                                of trial and error with React and React Router, and a fun way to gain more exposure in how to use the 
-                                features that React Router has and the added functionality it provides on top of React. 
-                            </p>
-                        </div>
-                    </a>
-                </td> 
-                <td> 
-                    <a href = "https://college-gpa.com" target = "_blank">
-                    <div class = "app"> 
-                        <h3> SCHEDULER </h3>
-                        <img src = "./photos/schedulerreact.png"/>
+    <div class = "col-md-1"></div>
+    <div class = "col-md-3 appnavbig"> 
+        <ul class="nav nav-tabs nav-stacked appnav">
+            <li class = "active"><a data-toggle="tab" href="#sherlocked"> SHERLOCKED </a></li>
+            <li><a data-toggle="tab" href="#gpacalculator"> GPA CALCULATOR</a></li>
+        </ul>
+    </div>
+    <div class = "col-md-7 apps">
+        <div class = "tab-content"> 
+            <div id="sherlocked" class="tab-pane fade in active">
+            <div class = "app">
+                <a href = "https://www.sherlocked.xyz">
+                <img src = "./photos/sherlocked.png"/>
+                 <h3> SHERLOCKED </h3> </a>
+                    <p> 
+                        This was a really fun web app to make that lets people play inside of a murder mystery to solve 
+                        challenges and find out who the real killer is. This came as an idea from quarantine, and the premise 
+                        of the story somewhat reflects the environment we were in when we were designing it. Overall it was a lot 
+                        of trial and error with React and React Router, and a fun way to gain more exposure in how to use the 
+                        features that React Router has and the added functionality it provides on top of React. 
+                    </p>
+            </div>
+            </div>
+            <div id="gpacalculator" class="tab-pane fade app">
+              <div class = "app"> 
+                <a href = "https://www.college-gpa.com">
+                    <img src = "./photos/schedulerreact.png"/>
+                    <h3> GPA CALCULATOR </h3> </a>
                         <p> 
                             This was my first attempt at designing a web app in Javascript; I had previously done work in Flask, but I had 
                             never been able to successfully host a Flask Application on a server. I figured that I might try to learn 
@@ -85,18 +90,15 @@
                             calculate their GPA's. The calculations for GPA is relatively simple, but this just provides a good interface to play 
                             around with grades and seeing their impact on grades.
                         </p>
-                    </div>
-                    </a>    
-                </td> 
-                </tr>
-            </tbody>
-
-        </table>
+                </div>
+            </div> 
+        </div>
     </div> 
+    </div>
 
 
-<div style = "height: 35px"> 
-</div>
+<div class = "divider"> 
+</div> 
 <div class ="container-fluid">
   <footer>
         <div class="row">

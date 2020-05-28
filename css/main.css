@@ -31,6 +31,7 @@ body {
     font-family: "Arvo",serif;
     font-size: 15px;
     color: black;
+
     background-color: #fdfdfd;
 }
 
@@ -67,9 +68,9 @@ li {
 
 /* Styles the fluid container of the navbar*/
 .topnavigation { 
-    background-color: #fdfdfd;;
-    padding-bottom: 10px;
+    background-color: inherit;;
     padding-right: 3%;
+    padding-bottom: 2px;
 }
 
 /*This styles the actual logo*/
@@ -132,7 +133,7 @@ li {
 /* The adjustments for the paragraph on the main page*/
 .description  {
   font-size: 14px;
-  font-family: "Arvo", serif;
+  font-family: 'Work Sans', sans-serif;
   font-weight: normal;
 }
 /* The overall styling for the paragraph container*/
@@ -311,6 +312,7 @@ li {
 /* The element in the work element*/
 .workelemimg { 
     text-align:center;
+    font-family: 'Work Sans', sans-serif;
 }
 /* The img within the above container*/
 .workelemimg img {
@@ -402,19 +404,25 @@ li {
 
 /* This is the start of the css for the blog*/
 .blogelement {
-
     padding-top: 1%;
     background-color: white;
+    padding: 2%;
+    border-style: solid;
+    border-color: grey;
 }
 
 .blogelementhead { 
     text-align: center;
     border-style: solid;
+    margin-top: 2%;
 }
 
 .blogsett { 
     margin: 0;
     padding: 0;
+}
+.mainblog { 
+    height: 100%;
 }
 
 .blogsett.topmargin14{ 
@@ -426,16 +434,20 @@ li {
 }
 
 .blogheader {
-    background-color: black;
-    color: #e7523e;
+    /*background-color: rgb(71, 69, 69);
+     */
+    color: #ee4731;
     text-align: center;
-    border-style: solid;
-    border-width: 3px;
+    border-bottom-style: solid;
     border-color: black;
+    border-radius: 2%;
     margin-top: 0;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
+footer { 
+    margin-top: 5%;
+}
 .blogheader a { 
     color: inherit;
     padding-top: 2%;
@@ -445,7 +457,7 @@ li {
 
 .bloglist  { 
     border-color: black;
-    border-style: solid;
+    /* border-style: solid; */
     border-width: 2px;
     text-align: center;
     list-style-type: none;
@@ -459,6 +471,7 @@ li {
     font-size: 12px;
     padding: 3%;
     text-align: justify;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* This is a general anouncement divider class*/
@@ -510,47 +523,76 @@ footer a, i{
   padding-left: 2.5%;
 }
 
-
 .app { 
     text-align: center;
-    margin: 3%;
+    background-color: white ;
+    border-style: solid;
+    border-color:white;
+
 }
 
 .app p { 
-    margin-top: 2%;
-    padding: 3%;
-    font-size: 12px;
-    padding-right: 6%;
-    padding-left: 6%;
-    border-style: solid;
-    background-color: lightgrey;
     color: black;
     text-align: justify;
+    padding-bottom: 6%;
+    font-size: 14px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Work Sans', sans-serif;
 }
 
-.apps table { 
-    width: 100%
-}
-
-.apps td {
-    width: 45%;
-    margin-right: 2.5%;
-    margin-left: 2.5%;
-    display: inline-block;
-    vertical-align: top;
+.app img { 
+    width: 80%;
+    margin-top: 2%;
 }
 
 .app h3 { 
-    border-style: solid;
-    background-color:#c42a19;
-    color: white;
+    color: black;
     padding: 2%;
 }
-.app:hover { 
-    transform: scale(1.03);
+
+.apps { 
+    margin-left: 0%;
 }
 
-.apps a:hover { 
-    text-decoration: none;
+.appnavbig { 
+    margin-right: 0%;
+}
+
+.appnav { 
+    margin-top: 5%;
+}
+.appnav li { 
+    border-style: solid;
+    text-align: center;
+    margin-bottom: 5%;
+    background-color: white;
+}
+
+.appnav li a:visited { 
+    background-color: black;
+    border-style: none;
+}
+.appnav li a:hover { 
+    background-color: white;
+    border-style: none;
+}
+
+.active a { 
+    border-style: none !important;
+    background-color: inherit !important;
+    color: inherit !important;
+}
+.active { 
+    background-color: black !important;
+    color: white;
+    border-style: solid;
     
+}
+.nav-stacked { 
+    border-style: none !important;
+}
+
+.tab-content { 
+    border-style: solid;
 }
