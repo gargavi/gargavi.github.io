@@ -2,15 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="icon"  type="image/png" href="logo.png">
     <link rel = "stylesheet" href = "font-awesome/css/font-awesome.min.css">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166016248-1"></script>
      <script>
@@ -20,11 +18,9 @@
  
      gtag('config', 'UA-166016248-1');
      </script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="javascript/canvas.js" async></script>
     <link rel= "stylesheet" href = "css/main.css">
     <link rel = "stylesheet" href = "css/style.css">
+    <link rel = "stylesheet" href = "css/blog.css">
     <title> Avi's Blog </title>
 </head>
 <body>
@@ -41,8 +37,7 @@
                     <div class="topnav">
                         <a href="index.html"> Home </a>
                         <a href="work.html"> Work </a>
-                        <a href="blog.html"  id="active"> Blog </a>
-                        <a href = "app.html"> Apps </a>
+                        <a href="apps.html"  id="active"> Apps </a>
                         <a href="about.html"> About Me </a>
                     </div>
                 </div>
@@ -51,53 +46,33 @@
 </div>
 </div>
 
-   <!--    
-    <div class="divider"></div>
-    <div class="row announcement">
-            
-        <p> Stay tuned...</p>
-
-    </div>
-    -->
 <div class="divider"></div>
 
 <div class="container">
     <div class="row">
         <div class="col-md-4">
-            <div class="row blogsett ">
                 <div class="blogelement">
                     <div class="blogheader">
-                        <h3> FILES </h3>
+                        <h3> files & links </h3>
                     </div>
                     <div class="bloglist topmargin7">
                         <a href="files/Avi_G_Resume.pdf"> <p>resume </p></a>
                         <a href="files/Econ101A_Notes.pdf"> <p>econ 101a notes </p></a>
                         <a href="Stat_135_Notes.pdf"> <p> stat 135 notes </p></a>
                         <a href="Prob140_Notes.pdf"> <p> prob 140 notes</p></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row blogsett topmargin14">
-                <div class="blogelement">
-                    <div class="blogheader">
-                        <h3> OTHER LINKS</h3>
-                    </div>
-                    <div class="bloglist topmargin14">
-                        <a href = "failures.html"> <p> my failures </p> </a>
+                        <!--<a href = "failures.html"> <p> my failures </p> </a> -->
                         <a href = "https://college-gpa.com" target = "_blank"> <p> GPA Calculator </p> </a>
                         <a href = "https://sherlocked.xyz" target = "_blank"> <p> Escape Room: Sherlocked </p> </a>
                     </div>
                 </div>
-            </div>
         </div>
     
-        <div class="col-md-8 blogelement mainblog">
-            <div class="blogheader ">
+        <div class="col-md-8 blogelement">
+            <!-- <div class="blogheader ">
                 <h3> BLOG ENTRIES </h3>
              </div>
              <div class = "row"> 
-                <div class = "col-sm-6"> 
+                <div class = "col-sm-12"> 
                     <div >
                         <div class = "blogelementhead">
                            <a href = "#may26" data-toggle = "collapse"> 
@@ -115,22 +90,6 @@
                         </div>
                     </div>
                     <div>
-                        <div class="blogelementhead ">
-                           <a href = "#april28" data-toggle = "collapse"> 
-                            <h4> april 28</h4>
-                            </a>
-                        </div>
-                        <div id = "april28" class="collapse topmargin14 blogcontent ">
-                            <p> I was able to host the website under a secured domain with Azure. I have a couple of 
-                                ideas for projects I want to work on in the future; I want to build a webapp using React 
-                            to help students plan out their schedules better, build a machine learning bot using neural networks 
-                            to automatically swipe left and right on tinder and build (yet another) Spotify app, but this time 
-                            attempt to host develop and bring it to market.  </p>
-                        </div>
-                    </div>
-                </div>
-                <div class = "col-sm-6">
-                    <div>
                         <div class = "blogelementhead">
                            <a href = "#may10" data-toggle = "collapse"> 
                             <h4> may 10</h4>
@@ -146,6 +105,20 @@
                         </div>
                     </div>
                     <div>
+                        <div class="blogelementhead ">
+                           <a href = "#april28" data-toggle = "collapse"> 
+                            <h4> april 28</h4>
+                            </a>
+                        </div>
+                        <div id = "april28" class="collapse topmargin14 blogcontent ">
+                            <p> I was able to host the website under a secured domain with Azure. I have a couple of 
+                                ideas for projects I want to work on in the future; I want to build a webapp using React 
+                            to help students plan out their schedules better, build a machine learning bot using neural networks 
+                            to automatically swipe left and right on tinder and build (yet another) Spotify app, but this time 
+                            attempt to host develop and bring it to market.  </p>
+                        </div>
+                    </div>                       
+                    <div>
                         <div class = "blogelementhead">
                            <a href = "#april17" data-toggle = "collapse"> 
                             <h4> april 17</h4>
@@ -160,12 +133,59 @@
                         </div>
                     </div>
                 </div>
-             </div> 
-            
+             </div>  -->
+             <div class = "blogheader"> 
+                <h3> applications </h3>
+            </div>
+             <div id="appCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-block w-100 appslide">
+                            <a href = "www.sherlocked.xyz"> 
+                                <img src="./photos/schedulerreact.png" alt="Second slide">
+                            </a>
+                            <p> 
+                                This was my first attempt at designing a web app in Javascript; I had previously done work in Flask, but I had 
+                                never been able to successfully host a Flask Application on a server. I figured that I might try to learn 
+                                Javascript in an attempt to make hosting easier, and to learn how to build full scale web apps, with the goal of learning 
+                                the front end interface and then braching off into integrating routing, databases and more. This app is a single 
+                                page application meant to help students with planning out their academic careers, and specifically with helping them 
+                                calculate their GPA's.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-block w-100 appslide">
+                            <a href = "www.college-gpa.com" target = "_blank"> 
+                                <img src="./photos/sherlocked.png" alt="Second slide">
+                            </a>
+                            <p> 
+                                This was a really fun web app to make that lets people play inside of a murder mystery to solve 
+                                challenges and find out who the real killer is. This came as an idea from quarantine, and the premise 
+                                of the story somewhat reflects the environment we were in when we were designing it. Overall it was a lot 
+                                of trial and error with React and React Router, and a fun way to gain more exposure in how to use the 
+                                features that React Router has and the added functionality it provides on top of React. 
+                            </p>
+                        </div>
+                    </div>
+                  
+                <a class="carousel-control-prev" href="#appCarousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#appCarousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              
+
         </div>
     </div>
+    </div>
 </div>
-<div class = "divider"></div>
+
+<div class="divider"> </div>
 <div class ="container-fluid">
     <footer>
             <div class="row">
@@ -201,15 +221,16 @@
                 <div class="col-md-2">
                     
                     <i> Version 1.2 2019  </i>
-                        
-        
-                
-                        
                     <div class="col-md-2">
                     </div>
                 </div>
             </div>
     </footer>
 </div> 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 </html>
+

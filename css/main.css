@@ -35,6 +35,10 @@ body {
     background-color: #fdfdfd;
 }
 
+header { 
+    width: 100%;
+}
+
 /* An alternate background color, mainly for the body*/
 .white { 
     background-color: azure;
@@ -130,34 +134,13 @@ li {
     margin: auto;
 }
 
-/* The adjustments for the paragraph on the main page*/
-.description  {
-  font-size: 14px;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: normal;
-}
 /* The overall styling for the paragraph container*/
 
 /* A general class for text alignment*/
 .aligncenter {
   text-align: center;
 }
-/* Container for the photo on index.html*/
-#intro {
-    border-width: 10px;
-    border-style: solid;
-    border-color: black;
-    width: 70%;
-    margin: auto;
-}
-/* ID for Professional Summary link*/
-#Prof {
-  align-self: center;
-  font-size: 20px;
-  font-family: Arvo;
-  font-weight: normal;
-  color: #cf2d21;
-}
+
 /* General Link class*/
 .Link {
   padding-top: 6%;
@@ -219,7 +202,7 @@ li {
     width: 90%;
     border-style: solid;
     border-width: 8px;
-    border-color: #1991e6;
+    border-color: black;
     border-radius: 2px;
 }
 
@@ -227,251 +210,8 @@ li {
     text-align: center;
     margin-top: 8%;
 }
-/* All the css we will use for the Work Tab */
-
-/* Contains the labels and buttons for work */
-.col-md-4.title {
-  text-align: center;
-  margin: 0;
-  padding:2%;
-}
-
-/* backgrounds of the elements*/
-.workback {
-    background:inherit;
-    border-style: none;
-    padding-right: 5%;
-    padding-left: 5%;
-    border-width: .5px;
-    border-radius: 20px;
-    border-color: #1991e6;
-}
-/* Maroon colored columns*/
-.col-md-4.mar {
-  background-color: #4d0404;
-  align-self: center;
-  color: #C8C8C8;
-}
-/* Grey colored columns*/
-.col-md-4.grey {
-  background-color: #C8C8C8;
-  color: #4d0404;
-  align-self: center;
-}
-
-/* Styling the individual elements in the page*/
-.workgrid {
-    /*background-color: #C8C8C8;
-    border-style: solid;
-    padding-top: 7px;
-    border-radius: 10px;
-        */
-    height: 200px;
-    padding-left: 1%;
-    padding-right: 1%;
-    color: grey;
-}
-
-/* Right most element of the grid*/
-.workgrid.right {
-    padding-right: 1%;
-}
-/* Left most element of the grid*/
-.workgrid.left {
-    padding-left:1%;
-}
-/* A grey border*/
-.greyborder { 
-    border-style: solid;
-    border-color: #C8C8C8;
-    border-width: 2px;
-    border-radius: 10px;
-}
-
-.goldborder { 
-    border-style: solid;
-    border-color: rgb(179, 137, 1);
-    border-width: 2px;
-    border-radius: 10px;
-}
-
-.greenborder { 
-    border-style: solid;
-    border-color: rgba(18, 58, 18, 0.486);
-    border-width: 2px;
-    border-radius: 10px;
-}
-
-.blackborder { 
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    border-radius: 10px;
-}
-
-/* The element in the work element*/
-.workelemimg { 
-    text-align:center;
-    font-family: 'Work Sans', sans-serif;
-}
-/* The img within the above container*/
-.workelemimg img {
-    width: 100%;
-    border-radius: 10px;
-}
-/* Adjusting the top margin*/
-.topmargin7 { 
-   margin-top: 7px;
-}
-/* Adjusting the top margin*/
-.topmargin14 {
-    margin-top: 14px;
-}
-
-.workgrid:hover {
-    transform: scale(1.1);
-    color: black;
-}
-
-
-.workelemtext {
-    /*background-color: #C8C8C8;*/
-    /*border-style: solid;*/
-    font-weight: lighter;
-    font-size: 14px;
-    text-justify:auto;
-    color: #1991e6;
-    text-align: center;
-    border-radius: 10px;
-}
-
-.workelemtext h3 { 
-    
-    font-weight: normal;
-    font-size: 20px;
-    margin-top: 2%;
-    color: black;
-    margin-bottom: 1%;
-}
-
-.tooler .toolish { 
-    visibility: hidden;
-    padding: 6%;
-    font-size: 13px;
-    position: absolute;
-    text-align: justify;
-    width: 95%;
-    height: 95%;
-    bottom: 1%;
-    padding-top: 5%;
-    left: 4.5%;
-}
-
-.tooler:hover .toolish { 
-    visibility: visible;
-}
-
-.tooler:hover img { 
-    visibility: hidden;
-    
-}
-
-.tooler:hover {
-    border-style: none;
-}
-
-
-.workheader {
-    text-decoration: none;
-    color: #10588c; 
-    font-size: 30px;
-    padding-bottom: 2%;
-    text-align: center;
-    border-bottom-style: solid;
-    /* border-bottom-color: #c42a19; */
-     border-bottom-color: grey; 
-    
-}
-
-
-.maroonborder {
-    border-style: solid;
-    border-color: #4d0404;
-    border-width: 2px;
-    border-radius: 10px;
-    
-}
-
-/* This is the start of the css for the blog*/
-.blogelement {
-    padding-top: 1%;
-    background-color: white;
-    padding: 2%;
-    border-style: solid;
-    border-color: grey;
-}
-
-.blogelementhead { 
-    text-align: center;
-    border-style: solid;
-    margin-top: 2%;
-}
-
-.blogsett { 
-    margin: 0;
-    padding: 0;
-}
-.mainblog { 
-    height: 100%;
-}
-
-.blogsett.topmargin14{ 
-    margin-top: 14px;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    padding: 0;
-}
-
-.blogheader {
-    /*background-color: rgb(71, 69, 69);
-     */
-    color: #ee4731;
-    text-align: center;
-    border-bottom-style: solid;
-    border-color: black;
-    border-radius: 2%;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-
 footer { 
     margin-top: 5%;
-}
-.blogheader a { 
-    color: inherit;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin: 0;
-}
-
-.bloglist  { 
-    border-color: black;
-    /* border-style: solid; */
-    border-width: 2px;
-    text-align: center;
-    list-style-type: none;
-   
-}
-
-.blogcontent {
-    border-color: black;
-    border-style: double;
-    border-width: 2px;
-    font-size: 12px;
-    padding: 3%;
-    text-align: justify;
-    font-family: 'Work Sans', sans-serif;
 }
 
 /* This is a general anouncement divider class*/
@@ -481,6 +221,7 @@ footer {
     border-style: double;
     border-color: #c42a19;
     width: 50%;
+    padding: 1%;
     align-self:center;
     margin:auto;
 }
@@ -512,7 +253,7 @@ footer {
   width: 100%;
   font-size: 15px;
   font-weight: lighter;
-  color: #32768F;
+  color: black;
   text-align:center;
   padding-bottom: 1%;
 }
@@ -521,78 +262,6 @@ footer {
 footer a, i{
   font-size: 10px;
   padding-left: 2.5%;
+  color: #32768F;
 }
 
-.app { 
-    text-align: center;
-    background-color: white ;
-    border-style: solid;
-    border-color:white;
-
-}
-
-.app p { 
-    color: black;
-    text-align: justify;
-    padding-bottom: 6%;
-    font-size: 14px;
-    padding-left: 5%;
-    padding-right: 5%;
-    font-family: 'Work Sans', sans-serif;
-}
-
-.app img { 
-    width: 80%;
-    margin-top: 2%;
-}
-
-.app h3 { 
-    color: black;
-    padding: 2%;
-}
-
-.apps { 
-    margin-left: 0%;
-}
-
-.appnavbig { 
-    margin-right: 0%;
-}
-
-.appnav { 
-    margin-top: 5%;
-}
-.appnav li { 
-    border-style: solid;
-    text-align: center;
-    margin-bottom: 5%;
-    background-color: white;
-}
-
-.appnav li a:visited { 
-    background-color: black;
-    border-style: none;
-}
-.appnav li a:hover { 
-    background-color: white;
-    border-style: none;
-}
-
-.active a { 
-    border-style: none !important;
-    background-color: inherit !important;
-    color: inherit !important;
-}
-.active { 
-    background-color: black !important;
-    color: white;
-    border-style: solid;
-    
-}
-.nav-stacked { 
-    border-style: none !important;
-}
-
-.tab-content { 
-    border-style: solid;
-}

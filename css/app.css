@@ -1,0 +1,83 @@
+.app { 
+    text-align: center;
+    background-color: black ;
+    border-style: solid;
+    color: white;
+    border-color:white;
+
+}
+
+.app p { 
+    color: black;
+    background-color: white;
+    text-align: justify;
+    font-weight: lighter;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 14px;
+    margin-right: 1%;
+    margin-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.app img { 
+    width: 80%;
+    margin-top: 10%;
+}
+
+.app h3 { 
+    padding: 2%;
+}
+
+.apps { 
+    margin-left: 0%;
+    padding: 0%;
+}
+
+.appnavbig { 
+    margin-right: 0%;
+    padding: 0%;
+}
+
+.appnav { 
+    margin-top: 5%;
+}
+.appnav li { 
+    border-style: solid;
+    text-align: center;
+    margin-bottom: 5%;
+    border-right: none;
+    color: black;
+    background-color: white;
+}
+
+.appnav li a:visited { 
+    background-color: black;
+    border-style: none;
+}
+.appnav li a:hover { 
+    background-color: white;
+    border-style: none;
+}
+
+.active a { 
+    border-style: none !important;
+    background-color: inherit !important;
+    color: inherit !important;
+}
+.active { 
+    background-color: black !important;
+    color: white !important;
+    border-style: solid;
+    border-color: black;
+    
+}
+.nav-stacked { 
+    border-style: none !important;
+}
+
+.tab-content { 
+    border-style: solid;
+}
