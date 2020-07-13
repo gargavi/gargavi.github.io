@@ -259,9 +259,13 @@ footer {
 }
 
 /* formatting links and the icons */
-footer a, i{
+footer a, footer i{
   font-size: 10px;
   padding-left: 2.5%;
   color: #32768F;
 }
 
+p i {
+  font-style: inherit;
+  color: rgb(113, 112, 112);
+}
