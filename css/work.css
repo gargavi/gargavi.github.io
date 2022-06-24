@@ -1,13 +1,11 @@
-
-
 /* All the css we will use for the Work Tab */
-
 /* Contains the labels and buttons for work */
 .col-md-4.title {
     text-align: center;
     margin: 0;
     padding:2%;
 }
+
   /* backgrounds of the elements*/
 .workback {
     background:inherit;
